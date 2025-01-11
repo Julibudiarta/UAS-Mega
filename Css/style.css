@@ -32,7 +32,7 @@
 
 .carousel-indicators button {
     background-color: #fff;
-    border-radius: 50%;
+    border-radius: 100%;
 }
 
 .carousel-indicators .active {
