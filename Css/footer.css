@@ -1,0 +1,118 @@
+/* Bagian footer */
+.footer {
+    background-color: #0B302E; 
+    color: #ffffff; 
+    padding: 40px 20px;
+}
+.footer h5, .footer h6 {
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+.footer a {
+    color: #ffffff;
+    text-decoration: none;
+}
+.footer a:hover {
+    text-decoration: underline;
+}
+.footer .btn {
+    background-color: #005450;
+    border: none;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 25px;
+}
+.footer .btn:hover {
+    background-color: #025a5a;
+}
+
+.footer .btn i {
+    margin-left: 8px;
+    transition: transform 0.3s ease;
+}
+
+.footer .btn:hover i {
+    transform: rotate(-60deg);
+}
+
+.footer h6 {
+    margin: 0;
+    padding: 0; 
+}
+
+.logo {
+    max-width: 20px;
+    height: auto;
+    object-fit: cover;
+    display: inline-block;
+}
+.footer .d-flex.align-items-center {
+    display: flex;
+    align-items: center;
+}
+
+.footer p {
+    margin-top: 10px;
+    margin-bottom: 0; 
+    color: #ffffff; 
+    font-size: 14px;
+}
+
+.footer ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer ul li {
+    margin-bottom: 5px;
+}
+
+.footer ul li a {
+    color: #ffffff; 
+    text-decoration: none;
+}
+
+.footer ul li a:hover {
+    text-decoration: underline;
+}
+
+.form-control-s {
+    border: none;
+    background-color: transparent;
+    color: #ffffff;
+    padding: 5px;
+    width: calc(100% - 120px);
+    max-width: 70%;
+    outline: none;
+    transition: border-color 0.3s ease;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.form-control-s:focus {
+    background-color: transparent;
+    color: #ffffff;
+    box-shadow: none;
+    outline: none;
+}
+.footer .btn-email {
+    background-color: #005450;
+    border: none;
+    color: #ffffff;
+    padding: 10px 15px;
+    border-radius: 20px;
+    transition: background-color 0.3s ease;
+    display: inline-block;
+    margin-left: 10px; 
+    margin-top: -1px; 
+}
+
+.footer .btn-email:hover {
+    background-color: #025a5a;
+}
+
+.divider {
+    border: none;
+    border-bottom: 3px solid #005450;
+    margin-top: 5px;
+}

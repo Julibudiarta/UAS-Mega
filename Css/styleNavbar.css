@@ -1,0 +1,44 @@
+.navbar-custom {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(10px);
+    border-radius: 30px;
+    overflow: visible;
+  }
+
+  .navbar-header{
+    width: 80%;
+    position: absolute;
+    top: 30px;
+    left: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 10;
+  }
+
+  .navbar-brand {
+    font-weight: bold;
+    color: #004d40;
+  }
+
+  .navbar-nav .nav-link {
+    color: #004d40;
+  }
+
+  .navbar-nav .nav-link.active {
+    text-decoration: underline;
+  }
+
+  .btn-contact {
+    background-color: #004d40;
+    color: white;
+    border-radius: 20px;
+    padding: 5px 15px;
+  }
+
+  .btn-contact:hover {
+    background-color: #00332b;
+  }
